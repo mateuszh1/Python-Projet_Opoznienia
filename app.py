@@ -1,5 +1,5 @@
 import streamlit as st
-import plotly.express as px
+
 
 from src.api_live import pobierz_pozycje_pojazdow, pobierz_opoznienia
 from src.processing_live import przygotuj_pozycje, przygotuj_opoznienia, zrob_podsumowanie
