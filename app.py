@@ -55,7 +55,7 @@ with st.sidebar:
 
     typ_pojazdu = st.selectbox(
         "Typ pojazdu",
-        ["autobusy", "tramwaje"],
+        ["autobusy"],
     )
 
     linia = st.text_input(
